@@ -1132,34 +1132,40 @@ blockquote p > cite {
 }
 
 .btn {
-  margin-right: 4px;
-  margin-bottom: 4px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  font-weight: 700 !important;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  border-radius: 0px;
-  letter-spacing: 2px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 20px 30px;
-  text-transform: uppercase;
-  text-shadow: none !important;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    background: transparent;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 700 !important;
+    color: #34a7bd;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 0px;
+    border: 1px solid;
+    border-color: #34a7bd;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-shadow: none !important;
+    /*-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15); */
 }
 .btn.btn-sm {
   padding: 10px 20px !important;
 }
 .btn:hover, .btn:active, .btn:focus {
   outline: none !important;
-  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+  background-color: #34a7bd;
+  color: white;
+  /*-webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);*/
 }
 
 .btn-primary {
@@ -1280,7 +1286,8 @@ blockquote p > cite {
 .btn-special {
   background: #008CB4;
   color: #2f9051;
-  border: 2px solid #008CB4;
+  border: 1px solid;
+  border-color: #34a7bd;
 }
 .btn-special:hover, .btn-special:focus, .btn-special:active {
   color: #fff;
