@@ -844,7 +844,7 @@ form label {
 }
 
 .gtco-section {
-    padding: 3em 0;
+    padding: 3em 15px;
     clear: both;
     position: relative;
     text-align: justify;
@@ -852,7 +852,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
     .gtco-section {
-        padding: 3em 0;
+        padding: 3em 15px;
     }
 }
 .gtco-section.border-bottom {
